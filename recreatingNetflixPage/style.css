@@ -1,0 +1,8 @@
+body {
+    background: url("netflix-background.jpg") no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Avenir Roman", sans-serif;
+}
