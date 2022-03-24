@@ -13,3 +13,13 @@ body {
     align-items: center;
     font-family: "Avenir Roman", sans-serif;
 }
+
+.indice {
+  color: white;
+  text-align: center;
+}
+
+.subindice {
+  color: white;
+  text-align: center;
+}
