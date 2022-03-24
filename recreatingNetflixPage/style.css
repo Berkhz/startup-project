@@ -4,6 +4,8 @@
   }
 
 body {
+    color: white;
+    text-align: center;
     background: url("netflix-background.jpg") no-repeat top center;
     background-size: cover;
     height: 100vh;
