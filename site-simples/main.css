@@ -10,11 +10,23 @@ li {
 .list {
     list-style: square;
 }
-#msg {
-    font-family: monospace;
-}
 .light-theme {
-    color: #000000;
-    background: #00FF00;
+    --bg: var(--green);
+    --fontColor: var(--black);
 }
-
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+}
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+body {
+    background: var(--bg);
+}
