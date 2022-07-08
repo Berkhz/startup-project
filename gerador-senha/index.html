@@ -13,15 +13,15 @@
     <img class="logo" src="assets/logo.png" alt="Logo">
 
     <main class="container-input">
-        <span>Tamanho <span id="valor">10</span> caracteres</span>
+        <span>Tamanho <span id="valor"></span> caracteres</span>
         <input id="slider" class="slider" type="range" min="5" max="25"/>
 
-        <button id="button" class="button-cta">Gerar senha</button>
+        <button id="button" class="button-cta" onclick="generapePassword()">Gerar senha</button>
     </main>
 
     <div id="container-password" class="container-password hide">
         <span class="title">Sua senha gerada foi:</span>
-        <span id="password" class="password">%78#98@54@21%</span>
+        <span id="password" class="password"></span>
         <span class="tooltip">Clique na senha para copiar. 👆</span>
     </div>
 
